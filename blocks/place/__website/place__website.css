@@ -1,6 +1,6 @@
 .place__website{
     grid-area: url-link;
-    position: relative;
     grid-template-rows: 9.5em;
     max-width: 460px;
+    align-self: flex-end;
 }
