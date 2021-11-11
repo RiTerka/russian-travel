@@ -3,4 +3,8 @@
     margin: 0;
     padding: 0;
     color: white;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 12px;
+    line-height: 18px;
 }
