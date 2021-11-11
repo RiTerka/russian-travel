@@ -3,4 +3,6 @@
     max-width: 1184px;
     display: flex;
     justify-content: space-between;
+    padding-top: 56px;
+    padding-bottom: 24px;
 }
