@@ -1,0 +1,16 @@
+.place__website__link{
+    place-items: start / end;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 22px;
+    text-decoration-line: underline;
+    color: #FFFFFF;
+    text-decoration: none;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+.place__website__link:hover{
+    opacity: 0.8;
+}

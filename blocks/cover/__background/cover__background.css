@@ -1,0 +1,25 @@
+.cover__background {
+    position: relative;
+    background: url(../../../img/__background.png);
+    background-size: cover;
+    width: 100vw;
+    max-height: 62.5vw;
+    max-width: 1184px;
+    z-index: 0;
+}
+.cover__background::before{
+    position:absolute;
+    content: '';
+    opacity: 0.3;
+    background-color: #2A2C2F;
+  	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+    
+}
+.cover__background:hover:before{
+    opacity: 0.8;
+    
+}
+

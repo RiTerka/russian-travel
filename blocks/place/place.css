@@ -1,0 +1,16 @@
+.place {
+    display: grid;
+    grid-template-areas:
+    "title url-link"
+    "image paragraph";
+    grid-template-columns: repeat(auto-fit, max-height(460px, 1fr));
+    max-width: 984px;
+    margin: 0 auto;
+    padding-bottom: 80px;
+    column-gap: 40px;
+    row-gap: 48px;
+}
+
+.place:last-of-type {
+    padding-bottom: 0px;
+}
