@@ -3,3 +3,9 @@
     margin: 0px auto;
     align-items: center;
 }
+
+@media screen and (max-width: 1024px){
+    .lead{
+        max-width: 928px;
+    }
+}
