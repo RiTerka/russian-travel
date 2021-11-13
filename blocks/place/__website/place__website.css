@@ -5,6 +5,14 @@
     align-self: flex-end;
 }
 
+@media screen and (max-width: 756px){
+    .place__website{
+        max-width: 352px;
+        min-height: 46px;
+        margin: 0 16px;
+    }
+}
+
 @media screen and (max-width: 320px){
     .place__website{
         max-width: 288px;
