@@ -18,6 +18,7 @@
     .footer{
         padding-top: 88px;
         max-width: 720px;
+        min-height: 18px;
     }
 }
 
@@ -26,7 +27,7 @@
         margin: 0 0 0 16px;
         padding-top: 64px;
         max-width: 187px;
-        min-height: 186;
+        min-height: 186px;
         flex-direction: column;
     }
 }
