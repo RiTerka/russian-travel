@@ -12,3 +12,20 @@
         max-width: 928px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .footer{
+        padding-top: 88px;
+        max-width: 720px;
+    }
+}
+
+@media screen and (max-width: 320px){
+    .footer{
+        margin: 0 0 0 16px;
+        padding-top: 64px;
+        max-width: 187px;
+        min-height: 186;
+        flex-direction: column;
+    }
+}

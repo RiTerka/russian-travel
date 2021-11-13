@@ -1,5 +1,4 @@
 .page{
-   
     height: 100%;
 	margin: 0 auto;
 	font-family: 'Inter';
@@ -8,4 +7,25 @@
     padding: 0;
     border: 0;
     text-rendering: optimizeLegibility;
+}
+
+@media screen and (max-width: 1024px){
+    .page{
+        max-width: 1024px;
+        
+    }
+}
+@media screen and (max-width: 768px){
+    .page{
+        max-width: 768px;
+        
+    }
+}
+
+
+
+@media screen and (max-width: 320px){
+    .page{
+        max-width: 320px
+    }
 }

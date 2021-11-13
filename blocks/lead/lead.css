@@ -2,10 +2,32 @@
     max-width: 984px;
     margin: 0px auto;
     align-items: center;
+    min-height: 1005px;
 }
 
 @media screen and (max-width: 1024px){
     .lead{
         max-width: 928px;
+        min-height: 962px;
     }
 }
+
+@media screen and (max-width: 768px){
+    .lead{
+        max-width: 720px;
+        width: 100%;
+        min-height: 862px;
+    }
+    
+}
+
+@media screen and (max-width: 320px){
+    .lead{
+        max-width: 320px;
+        width: 100%;
+        min-height: 406px;
+    }
+}
+
+
+

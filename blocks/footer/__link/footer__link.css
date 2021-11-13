@@ -10,3 +10,17 @@
 .footer__link:last-of-type{
     padding-right: 0;
 }
+
+@media screen and (max-width: 320px){
+    .footer__link{
+        max-width: 128px;
+        font-size: 24px;
+        line-height: 24px;
+        min-height: 24px;
+        padding-bottom: 32px;
+    }
+
+    .footer__link:last-of-type{
+        padding-bottom: 48px;
+    }
+}
