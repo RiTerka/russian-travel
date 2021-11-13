@@ -1,4 +1,4 @@
-.cover__background {
+.cover_background {
     position: relative;
     background: url(../../../img/__background.png);
     background-size: cover;
@@ -7,7 +7,7 @@
     max-width: 1184px;
     z-index: 0;
 }
-.cover__background::before{
+.cover_background::before{
     position:absolute;
     content: '';
     opacity: 0.3;
@@ -18,7 +18,7 @@
 	right: 0;
     
 }
-.cover__background:hover:before{
+.cover_background:hover:before{
     opacity: 0.8;  
 }
 
