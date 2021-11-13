@@ -29,7 +29,7 @@
         max-width: 720px;
         grid-template-columns: repeat(auto-fit, max-height(340px, 1fr));
         column-gap: 28px;
-        
+        padding-bottom: 72px;
     }
 }
 
@@ -46,6 +46,7 @@
         min-height: 1042px;
         column-gap: 0px;
         row-gap: 32px;
+        padding-bottom: 50px;
     }
 }
 
