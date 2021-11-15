@@ -1,6 +1,6 @@
 .header{
     max-width: 1184px;
-    margin: 0 auto; 
+    margin: 0 auto;
     padding-top: 28px;
     padding-bottom: 53px;
     display: flex;
@@ -14,7 +14,6 @@
     .header{
         max-width: 928px;
         min-height: 52px;
-        
         padding-bottom: 48px;
     }
 }
@@ -31,6 +30,6 @@
     .header{
         max-width: 288px;
         min-height: 42px;
-        padding-bottom: 48px
+        padding-bottom: 48px;
     }
 }
