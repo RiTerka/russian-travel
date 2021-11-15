@@ -3,6 +3,8 @@
     grid-template-rows: 9.5em;
     max-width: 460px;
     align-self: flex-end;
+    color: white;
+    
 }
 
 @media screen and (max-width: 756px){
