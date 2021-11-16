@@ -14,7 +14,6 @@
         max-width: 928px;
         grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
         gap: 14px;
-        min-height: 942px;
     }
 }
 
@@ -24,6 +23,16 @@
         grid-template-columns: repeat(auto-fit, minmax(352px,1fr));
         gap: 16px;
         padding: 0 24px 0 24px;
+
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .photo-grid{
+        max-width: 288px;
+        grid-template-columns: repeat(auto-fit, minmax(284px,1fr));
+        row-gap: 12px;
+        padding: 0 16px 0 16px;
 
     }
 }

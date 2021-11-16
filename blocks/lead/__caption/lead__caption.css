@@ -14,7 +14,6 @@
     .lead__caption{
         max-width: 720px;
         width: 100%;
-        min-height: 52px;
         padding-left: 24px;
     }
     
@@ -22,7 +21,6 @@
 @media screen and (max-width: 320px){
     .lead__caption{
         padding: 0;
-        width: 100%;
         margin-left: 16px;
     }
     

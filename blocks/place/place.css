@@ -33,7 +33,7 @@
     }
 }
 
-@media screen and (max-width: 320px){
+@media screen and (max-width: 767px){
     .place{
         grid-template-areas:
         "title" 
@@ -42,10 +42,10 @@
          "paragraph";
         max-width: 720px;
         grid-template-rows: repeat(auto-fit, max-height(280px, 1fr));
-        min-height: 1042px;
         column-gap: 0px;
         row-gap: 32px;
         padding-bottom: 50px;
     }
 }
+
 

@@ -18,7 +18,12 @@
     .footer{
         padding-top: 88px;
         max-width: 720px;
-        min-height: 18px;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .footer{
+        flex-direction: column;
     }
 }
 
