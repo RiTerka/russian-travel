@@ -4,28 +4,23 @@
     justify-content: center;
     flex-direction: column;
     max-width: 1180px;
+    width: 100%;
 }
 
 @media screen and (max-width: 1024px){
     .cover{
-        max-width: px;
-        width: 100%;
         min-height: 200px;
     }
 }
 
 @media screen and (max-width: 768px){
     .cover{
-        max-width: 720px;
-        width: 100%;
         min-height: 480px;
     }  
 }
 
 @media screen and (max-width: 320px){
     .cover{
-        max-width: 320px;
-        width: 100%;
         min-height: 200px;
     }
 }
