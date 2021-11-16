@@ -1,8 +1,8 @@
 .place__image {
     grid-area: image;
     width: 100%;
-    min-height: 460px;
     object-fit: contain;
+    object-position: left top;
 
 }
 
