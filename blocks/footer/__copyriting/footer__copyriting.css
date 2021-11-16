@@ -24,5 +24,6 @@
         line-height: 14px;
         margin: 0;
         padding-top: 48px;
+        max-width: 201px;
     }
 }
