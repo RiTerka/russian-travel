@@ -36,10 +36,10 @@
 @media screen and (max-width: 767px){
     .place{
         grid-template-areas:
-        "title" 
+        "title"
         "url-link"
-        "image"
-         "paragraph";
+        "image "
+        "paragraph";
         max-width: 720px;
         grid-template-rows: repeat(auto-fit, max-height(280px, 1fr));
         column-gap: 0px;
