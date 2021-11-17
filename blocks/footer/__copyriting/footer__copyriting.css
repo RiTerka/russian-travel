@@ -18,12 +18,3 @@
     }
 }
 
-@media screen and (max-width: 320px){
-    .footer__copyriting{
-        text-align: left;
-        line-height: 14px;
-        margin: 0;
-        padding-top: 48px;
-        max-width: 201px;
-    }
-}

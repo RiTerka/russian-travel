@@ -1,8 +1,8 @@
 .cover__background {
+    background-position:center;
     position: relative;
-    background: url(../../../image/__background.png);
+    background: url(../../../images/__background.png);
     background-size: cover;
-    max-height: 62.5vw;
     max-width: 1184px;
     z-index: 0;
 }
@@ -21,5 +21,10 @@
     opacity: 0.8;  
 }
 
+@media screen and (max-width: 320px) {
+    .cover__background{
+        max-width: 320px;
+    }
+}
 
 

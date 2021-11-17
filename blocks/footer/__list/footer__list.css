@@ -18,10 +18,3 @@
 }
 
 
-@media screen and (max-width: 320px){
-    .footer__list{
-        grid-template-rows: repeat(5,1fr);
-        row-gap: 32px;
-        column-gap: 0px;
-    }
-}
