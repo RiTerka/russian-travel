@@ -2,7 +2,6 @@
     position: relative;
     background: url(../../../image/__background.png);
     background-size: cover;
-    max-height: 62.5vw;
     max-width: 1184px;
     z-index: 0;
 }
